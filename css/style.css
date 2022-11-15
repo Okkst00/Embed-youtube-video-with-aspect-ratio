@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+.yt iframe{
+    display: flex;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.desc {
+    width: 80%;
+    margin: auto;
+}
+
+.desc h1 {
+    font-size: 28px;
+    margin: 28px 10px 0px 10px;
+    color: black;
+}
+
+.desc p {
+    margin: 15px 10px 100px 10px;
+    font-size: 17px;
+    color: grey;
+}
+
+
+@media (max-width:768px) {
+
+    
+    .yt iframe{
+        width: 90%;
+    }
+
+    .desc {
+        width: 90%;
+    }
+
+    .desc h1 {
+        font-size: 25px;
+        margin: 25px 10px 0px 10px;
+    }
+    
+    .desc p {
+        margin: 10px 10px 100px 10px;
+        font-size: 16px;
+        color: grey;
+    }
+    
+}
+
+@media (max-width:450px) {
+    
+    .yt iframe{
+        width: 90%;
+    }
+
+    .desc {
+        width: 90%;
+    }
+
+    .desc h1 {
+        font-size: 21px;
+        margin: 20px 10px 0px 10px;
+    }
+    
+    .desc p {
+        margin: 10px 10px 100px 10px;
+        font-size: 14px;
+        color: grey;
+    }
+    
+}
